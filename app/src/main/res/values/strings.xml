@@ -6,4 +6,14 @@
 	<string name="register">Register</string>
 	<string name="first_name">First Name</string>
 	<string name="last_name">Last Name</string>
+	<string name="_0">0</string>
+	<string name="first_number">First Number</string>
+	<string name="second_number">Second Number</string>
+	<string name="add">+</string>
+	<string name="subtract">-</string>
+	<string name="multiply">x</string>
+	<string name="divide">÷</string>
+	<string name="percentage">%</string>
+	<string name="square_root">√</string>
+	<string name="equals">=</string>
 </resources>
