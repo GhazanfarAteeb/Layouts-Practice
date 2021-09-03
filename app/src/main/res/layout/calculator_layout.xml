@@ -5,7 +5,6 @@
 	android:orientation="vertical"
 	android:gravity="center">
 	<EditText
-		android:id="@+id/number"
 		android:layout_width="match_parent"
 		android:layout_height="80sp"
 		android:layout_marginStart="25sp"
@@ -13,11 +12,13 @@
 		android:background="@drawable/border"
 		android:textSize="30sp"
 		android:hint="@string/_0"
-		android:inputType="number"
+		android:inputType="none"
 		android:autofillHints="@null"
 		android:textAlignment="textEnd"
 		android:paddingStart="10sp"
-		android:paddingEnd="10sp"/>
+		android:paddingEnd="10sp"
+		android:enabled="false"
+		android:focusable="false"/>
 	<LinearLayout
 		android:layout_height="wrap_content"
 		android:layout_width="match_parent"
@@ -29,25 +30,24 @@
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
-			android:textSize="25sp"/>
+			android:text="@string/ac"
+			android:textSize="25sp" />
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/backspace"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/percentage"
 			android:textSize="25sp"
-			android:layout_marginStart="12sp"
-			/>
+			android:layout_marginStart="12sp" />
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/divide"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 	</LinearLayout>
@@ -62,25 +62,24 @@
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_7"
 			android:textSize="25sp"/>
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_8"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_9"
 			android:textSize="25sp"
-			android:layout_marginStart="12sp"
-			/>
+			android:layout_marginStart="12sp" />
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/multiply"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 	</LinearLayout>
@@ -95,25 +94,24 @@
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_4"
 			android:textSize="25sp"/>
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_5"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_6"
 			android:textSize="25sp"
-			android:layout_marginStart="12sp"
-			/>
+			android:layout_marginStart="12sp" />
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/subtract"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 	</LinearLayout>
@@ -128,25 +126,24 @@
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_1"
 			android:textSize="25sp"/>
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_2"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_3"
 			android:textSize="25sp"
-			android:layout_marginStart="12sp"
-			/>
+			android:layout_marginStart="12sp" />
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/add"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 	</LinearLayout>
@@ -161,12 +158,12 @@
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/_0"
 			android:textSize="25sp"/>
 		<Button
 			android:layout_height="55sp"
 			android:layout_width="80sp"
-			android:text="@string/equals"
+			android:text="@string/decimal"
 			android:textSize="25sp"
 			android:layout_marginStart="12sp"/>
 		
